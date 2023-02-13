@@ -9,20 +9,16 @@ public class Ex4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while (start <= end)
+        while (start <= end) // un numero inicial y uno final
         {
-            if (start % 5 == 0)
+            if (start % 5 == 0) //si el modulo del numero inicial es igual a 0 es multiple de 5 
             {
                 Debug.Log(start);
             }
             
-            start++;
+            start++; //suma uno para comprovar si es verdadero
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }

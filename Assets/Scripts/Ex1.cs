@@ -7,15 +7,10 @@ public class Ex1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 100; i >= 0; i -= 2)
+        for (int i = 100; i >= 0; i -= 2) //-= para ir de 100 a 0 en pares
         {
             Debug.Log(i);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

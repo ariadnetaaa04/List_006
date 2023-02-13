@@ -9,25 +9,14 @@ public class Ex5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        /*
-        for (int i = 0; i < nums.Length; i++)
-        {
-            sum += nums[i];
-            Debug.Log(sum);
-        }
-        */
-        foreach (int numbers in nums)
-        {
-            
-            sum += numbers;
-            
-        }
-        Debug.Log(sum);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        foreach (int numbers in nums) //lee todo lo del array
+        {
+
+            sum += numbers; //suma todo lo que hay en el array
+
+        }
+        Debug.Log(sum); //una vez finalizado el proceso del bucle se muestra el resultado por consola. 
     }
 }
+   
